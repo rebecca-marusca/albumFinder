@@ -10,7 +10,6 @@ Built as my very first React project, this website showcases state management, a
 
 https://album-finder-ten.vercel.app/
 
-
 ## Features
 
 - Search for artists and browse their albums
@@ -27,7 +26,7 @@ https://album-finder-ten.vercel.app/
 
 ## Install
 
-- git clone https://github.com/your-username/albumFinder.git
+- git clone https://github.com/rebecca-marusca/albumFinder.git
 
 - cd albumFinder
 
@@ -54,6 +53,7 @@ Create a .env file in the root directory:
 - Better error handling for API limits
 
 - UI polish and animations
+
 ## Acknowledgements
 
   Thank you to Codédex, the place where my web dev journey began, and whose tutorial I shamelessly and happily used for this app. 
