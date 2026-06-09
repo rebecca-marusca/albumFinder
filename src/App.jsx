@@ -115,7 +115,14 @@ function App() {
             }}
           />
 
-          <Button onClick={search}>Search</Button>
+          <Button
+            onClick={search}
+            style={{
+              backgroundColor: "#1a1a1a",
+            }}
+          >
+            Search
+          </Button>
         </InputGroup>
       </Container>
 
@@ -134,7 +141,7 @@ function App() {
               <Card
                 key={album.id}
                 style={{
-                  backgroundColor: "white",
+                  backgroundColor: "#1a1a1a",
                   margin: "10px",
                   borderRadius: "5px",
                   marginBottom: "30px",
@@ -158,7 +165,7 @@ function App() {
                       maxWidth: "200px",
                       fontSize: "18px",
                       marginTop: "10px",
-                      color: "black",
+                      color: "white",
                     }}
                   >
                     {album.name}
@@ -166,7 +173,7 @@ function App() {
 
                   <Card.Text
                     style={{
-                      color: "black",
+                      color: "white",
                     }}
                   >
                     Release Date: <br /> {album.release_date}
@@ -175,8 +182,8 @@ function App() {
                   <Button
                     href={album.external_urls.spotify}
                     style={{
-                      backgroundColor: "black",
-                      color: "white",
+                      backgroundColor: "#1DB954",
+                      color: "#1a1a1a",
                       fontWeight: "bold",
                       fontSize: "15px",
                       borderRadius: "5px",
